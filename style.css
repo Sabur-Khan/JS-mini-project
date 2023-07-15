@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.from-body{
+    margin: 10px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.from-body .input-left-item{
+    padding: 20px;
+    background-color: #ff0404;
+}
+.from-body .input-right-item {
+	padding: 20px;
+	background-color: #010028;
+}
+.input-left-body{
+    margin-top: 20px;
+}
+.input-left-body label{
+    margin-top: 8px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+.input-left-body input{
+    border: none;
+    max-width: 300px;
+    padding: 5px 8px;
+    font-size: 16px;
+    border-radius: 0px 9px 0px 9px;
+
+    font-weight: light;
+}
+.btn1, .btn2, .btn3 {
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	margin-top: 30px;
+	cursor: pointer;
+	margin-right: 20px;
+	font-weight: bold;
+	border-radius: 9px 0px 9px 0px;
+	font-size: 15px;
+	padding: 8px 18px;
+}
+button:hover{
+    color: rgb(248, 255, 42);
+    transition: all linear.3s;
+    background-color: #222c42;
+}
+.in-one{
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    background-color: #ff1313;
+}
+#grade{
+    font-size: 18px;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+.in-two{
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    background-color: #ff1313;
+}
+#avrage{
+    font-size: 18px;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;    
+    padding-left: 5px;
+}
+.in-three{
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    background-color: #ff1313;
+}
+#total{
+    font-size: 18px;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}

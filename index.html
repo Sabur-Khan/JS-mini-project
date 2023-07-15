@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading Marks with JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="from-body">
+        <div class="input-left-item">
+            <h1 style="color: white;">Grading Input</h1>
+            <div class="input-left-body">
+                <label>Bangla</label><input type="text" id="bang" placeholder="your bangla number....">
+                <label>English</label><input type="text" id="eng" placeholder="your english number....">
+                <label>Mathmatics</label><input type="text" id="mat" placeholder="your mathmatics number....">
+            </div>
+            <button type="button" class="btn1" onclick="Total()">Total</button>
+            <button type="button" class="btn2" onclick="Avrage()">Avrage</button>
+            <button type="button" class="btn3" onclick="Grade()">Grading</button>
+        </div>
+        <div class="input-right-item">
+            <h1 style="color: white;">Grading Output</h1>
+
+            <div class="in-one">
+                <h3 style="text-align: center;">Totale</h3>
+            </div>
+
+            <div id="total">
+                
+            </div>
+
+            <div class="in-two">
+                <h3 style="text-align: center;">Avrage</h3>
+            </div>
+            <div id="avrage">
+
+            </div>
+
+            <div class="in-three">
+                <h3  style="text-align: center;">Total</h3>
+            </div>
+
+            <div id="grade">
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
